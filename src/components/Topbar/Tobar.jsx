@@ -1,12 +1,15 @@
 import React from "react";
 import './Tobar.css'
 import {Language, NotificationsNone, Settings} from '@material-ui/icons'
+import {Link} from "react-router-dom"
 
 const Tobar = () => {
   return <div className="tobar">
       <div className="topbarWrapper">
         <div className="topLeft">
-              <span className="logo">Madooh</span>
+             <Link to="/" className="link">
+             <span className="logo">Madooh</span>
+             </Link>
            </div>
         <div className="topRight">
           <div className="topbarIconsContainer">
