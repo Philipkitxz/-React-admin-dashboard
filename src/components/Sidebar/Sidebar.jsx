@@ -1,4 +1,5 @@
 import {
+  AttachMoneyOutlined,
   BarChartSharp,
   ChatBubbleOutlined,
   DynamicFeedOutlined,
@@ -29,10 +30,18 @@ const Sidebar = () => {
               Home
             </li>
             </Link>
+            <Link to="/insights" className="link"> 
             <li className="sidebarListItem">
               <TimelineOutlined className="sidebarIcon" />
-              Analytics
+              Insights
             </li>
+            </Link>
+            <Link to="/doohzone" className="link">
+            <li className="sidebarListItem">
+              <AttachMoneyOutlined className="sidebarIcon" />
+              Dooh Zone
+            </li>
+            </Link>
             <li className="sidebarListItem">
               <TrendingUpOutlined className="sidebarIcon" />
               Sales

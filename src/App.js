@@ -9,6 +9,8 @@ import NewUser from "./components/pages/newUser/NewUser";
 import ProductList from "./components/pages/productList/ProductList";
 import Product from "./components/pages/product/Product";
 import NewProduct from "./components/pages/newproduct/NewProduct";
+import { Dooh } from "./components/pages/doohzone/Dooh";
+import { Insights } from "./components/pages/Insights/Insights";
 
 
 function App() {
@@ -38,6 +40,12 @@ function App() {
           </Route>
           <Route path="/newproduct">
             <NewProduct />
+          </Route>
+          <Route path="/doohzone">
+            <Dooh/>
+          </Route>
+          <Route path="/insights">
+            <Insights/>
           </Route>
         </Switch>
       </div>
